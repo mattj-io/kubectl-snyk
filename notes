@@ -1,0 +1,7 @@
+Do we need to wrap the snyk binary in some go ? 
+Which commands are relevant in this context - container and iac 
+Images will only work if you have the same repositories available to you locally
+Get and scan images in your cluster ( providing where you are running kubectl has the repositories )
+Scan local k8s yaml
+Scan image from pod
+Scan all images from all pods
